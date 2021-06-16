@@ -9,8 +9,8 @@ import {
   scrollSpy,
   scroller,
 } from "react-scroll";
-
 import "./main.css";
+const WideImage = "/images/wide2.jpg";
 
 const durationFn = function (deltaTop) {
   return deltaTop;
@@ -70,26 +70,56 @@ export default class App extends React.Component {
           style={{
             height: height,
             backgroundColor: "grey",
-            justifyContent: "center",
             alignItems: "center",
+
             display: "flex",
-            flexDirection: "column",
+            // flexDirection: "row",
+            backgroundImage: `url(${WideImage})`,
+            backgroundSize: "cover",
+            paddingLeft: window.innerWidth * 0.1,
           }}
         >
-          {/* <h3>Hello,I am Monu</h3>
-          <h3>i'm React-Native Developer</h3> */}
-          <h1>this this</h1>
-          <Link
-            activeClass="active"
-            className="test1"
-            to="test1"
-            spy={true}
-            smooth={true}
-            duration={500}
-            offset={-40}
-          >
-            <div>View my work</div>
-          </Link>
+          <div>
+            <div style={{ fontSize: 40, paddingBottom: 10 }}>
+              Hello,I am<span style={{ color: "red" }}> M</span>
+              <span style={{ color: "white" }}>onu</span>
+            </div>
+            <div style={{ color: "black", fontSize: 20, paddingBottom: 10 }}>
+              I'm Mobile app developer
+            </div>
+            <div
+              style={{
+                backgroundColor: "#2F8A95",
+                // backgroundColor: "grey",
+                borderRadius: 4,
+                cursor: "pointer",
+                width: 150,
+                // border: "solid #000 1px",
+              }}
+            >
+              <Link
+                activeClass="active"
+                className="test1"
+                to="test1"
+                spy={true}
+                smooth={true}
+                duration={500}
+                offset={-40}
+              >
+                <div
+                  style={{
+                    // borderColor: "black",
+                    // borderWidth: 2,
+                    color: "white",
+                    padding: 10,
+                    textAlign: "center",
+                  }}
+                >
+                  View my work
+                </div>
+              </Link>
+            </div>
+          </div>
         </div>
         <div className="header" id="myHeader">
           this is header
