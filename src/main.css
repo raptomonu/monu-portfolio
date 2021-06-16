@@ -1,0 +1,10 @@
+.header {
+  background-color: rgb(32, 204, 124);
+  height: 40px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
