@@ -1,6 +1,9 @@
 .header {
-  background-color: rgb(32, 204, 124);
+  background-color: #2f8a95;
   height: 40px;
+  flex-direction: row;
+  display: flex;
+  padding-left: 20px;
 }
 
 .sticky {
