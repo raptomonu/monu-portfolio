@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "99d754f792c61cb2610e",
+    "revision": "187ab183e0069719d591",
     "url": "/monu-portfolio/static/css/main.14b8aff8.chunk.css"
   },
   {
-    "revision": "99d754f792c61cb2610e",
-    "url": "/monu-portfolio/static/js/main.a050b8e2.chunk.js"
+    "revision": "187ab183e0069719d591",
+    "url": "/monu-portfolio/static/js/main.8f894159.chunk.js"
   },
   {
     "revision": "8ebbb6bb4c4189949237",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/monu-portfolio/static/js/3.5890c759.chunk.js"
   },
   {
-    "revision": "a04e03a19b7598fd3cc86e8a58b402bc",
+    "revision": "f11411440b4a5fdb45401acf2ebf7e53",
     "url": "/monu-portfolio/index.html"
   }
 ];

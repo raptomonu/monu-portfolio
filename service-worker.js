@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/monu-portfolio/precache-manifest.03a630c7bc1086462a6687e2b5c2077a.js"
+  "/monu-portfolio/precache-manifest.1cfaee330f162585871379456424f34e.js"
 );
 
 workbox.clientsClaim();
